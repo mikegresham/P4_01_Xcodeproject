@@ -21,12 +21,11 @@ struct Person: Hashable {
     let age: Int
     let homeTown: String
     var interests: [Interest]
-    var matches = 0
 }
 
 var interests = [Interest]()
 
-// Define date for interests
+// Define data for interests
 
 interests.append(Interest(title: "football", description: "playing football as part of a local club.", category: .sport))
 interests.append(Interest(title: "baksetball", description: "playing basketball down the park.", category: .sport))
